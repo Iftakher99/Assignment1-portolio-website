@@ -4,7 +4,7 @@ body {
 
 }
 
-h1 {
+h1 { 
     font-family: 'Quicksand', sans-serif;
     font-weight: bolder;
     font-size: 4rem;
@@ -16,8 +16,10 @@ h2 {
     font-weight: bolder;
     font-size: 2rem;
 }
-h3 { font-family: 'Quicksand', sans-serif;
-color:rgb(21, 16, 96);
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(21, 16, 96);
 
 }
 
@@ -42,32 +44,35 @@ p {
 
 .third-section {
     text-align: center;
-    background-color:rgb(247, 251, 252);
+    background-color: rgb(247, 251, 252);
     padding-top: 60px;
     height: 600px;
 }
-.my-qualities-section{
-text-align: center;
-height: 700px;
-background-color:rgb(247, 251, 252);
+
+.my-qualities-section {
+    text-align: center;
+    height: 700px;
+    background-color: rgb(247, 251, 252);
 }
 
-.my-qualities-section h2{
-    
+.my-qualities-section h2 {
+
     margin-top: 0px;
 
 }
-.bottom-section{
 
-height: 500px;
-background-image: url(Images/asxas.png);
-background-size: 60%;
-background-repeat: no-repeat;
-background-position: center;
+.bottom-section {
+
+    height: 500px;
+    background-image: url(Images/asxas.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
-.footer-section{
-height: 200px;
+
+.footer-section {
+    height: 200px;
     text-align: center;
 }
 
@@ -98,7 +103,11 @@ height: 200px;
     float: left;
 
 }
-.half-width2{
+.half-width {
+   line-height: 22px;
+}
+
+.half-width2 {
     margin: auto;
     width: 45%;
     padding-bottom: 30px;
@@ -157,36 +166,40 @@ height: 200px;
     max-width: 90%;
 
 }
-.work-card{
+
+.work-card {
     width: 90%;
     margin: auto;
 }
+
 .project-image {
-    
+
     width: 100%;
 }
-.card { 
+
+.card {
     float: left;
     width: 30%;
-    padding:5px 5px;
+    padding: 5px 5px;
     background-color: white;
     margin: 0 10px;
     border: 1px solid white;
     box-shadow: 1px 1px 10px 5px #dfd9d9;
     border-radius: 15px;
-    
+
 }
+
 .card p {
-    font-size:15px ;
+    font-size: 15px;
     color: gray;
 }
 
 
 
-.my-qualities{
+.my-qualities {
     float: left;
     width: 28%;
-    padding:10px 20px;
+    padding: 10px 20px;
     background-color: white;
     margin-left: 10px;
     border: 1px solid white;
@@ -194,16 +207,18 @@ height: 200px;
     border-radius: 15px;
 
 }
+
 .my-qualities .quality {
     margin: auto;
     width: 100%;
 }
-.my-qualities h2 {
-    color:rgb(21, 16, 96)
 
+.my-qualities h2 {
+    color: rgb(21, 16, 96)
 }
+
 .my-qualities p {
-    color:#888787;
+    color: #888787;
 
 }
 
@@ -212,8 +227,8 @@ height: 200px;
     height: 430px;
 }
 
-.half-width2  h2 {
-    color:rgb(21, 16, 96)
+.half-width2 h2 {
+    color: rgb(21, 16, 96)
 }
 
 
@@ -224,7 +239,7 @@ height: 200px;
 /* The below section took 3/4hours to learn from w3school */
 
 .contact-text h2 {
-   color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     float: left;
     margin: auto;
     margin-top: 230px;
@@ -232,27 +247,29 @@ height: 200px;
     font-weight: 500;
 
 }
+
 .contact-text a {
     float: left;
     margin-top: 233px;
     margin-left: 400px;
 
-   
-   
+
+
 }
 
 
 
 
 
-.logo-img{
+.logo-img {
 
     width: 4%;
-    padding: 0 10px ;
+    padding: 0 10px;
 }
-footer { padding: 10px 0 5px 0;
+
+footer {
+    padding: 10px 0 5px 0;
     text-align: center;
     font-size: 14px;
     color: gray;
 }
-
